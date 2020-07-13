@@ -1,7 +1,7 @@
 import {Component} from "@angular/core";
 
 @Component({
-  selector: '.app-topo',//Tag: app-topo, Atributo: [app-topo], Classe: .app-topo
+  selector: 'app-topo',//Tag: app-topo, Atributo: [app-topo], Classe: .app-topo
   templateUrl: './topo.component.html',
 
   /*
