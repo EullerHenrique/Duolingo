@@ -60,5 +60,5 @@ import { Component } from '@angular/core';
 
 
 export class AppComponent {
-  title = 'app'; //Titulo do componente
+  title = 'app'; //Titulo do componentee
 }
