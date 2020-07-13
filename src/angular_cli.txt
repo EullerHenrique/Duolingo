@@ -11,8 +11,18 @@ Criar um projeto
 
     ng new app1
 
-Gerar o build do projeto (executar o webpack) e gerar um servidor
+Realizar o build do projeto (executar o webpack) e gerar um servidor
     ng server ou ng serve
+
+Criar um componente
+  ng generate component <nome>
+  ou
+  ng g c <nome>
+  ou
+  ng g c <nome> --spec=false     spec -> Arquivo utilizado para testes
+                                 spec=false -> O arquivo spec não será criado
+
+
 
 
 O que é webpack?
