@@ -1,0 +1,15 @@
+    Basicamente o AngularJS é um framework de código aberto usado para construir aplicativos para web baseados em uma única página
+    dinâmica
+
+
+Explicações mais detalhadas:
+
+    **** https://blog.algaworks.com/o-que-e-angular/ ****
+
+    https://blog.betrybe.com/framework-de-programacao/angular/
+
+    https://www.hostinger.com.br/tutoriais/o-que-e-angular/
+
+    https://www.treinaweb.com.br/blog/o-que-e-o-angular-e-para-que-serve/
+
+

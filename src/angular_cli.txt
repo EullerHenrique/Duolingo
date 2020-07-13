@@ -1,0 +1,51 @@
+O que é o Angular CLI (ng)
+
+O Angular CLI é uma ferramenta open source desenvolvida pelo próprio time do Angular e é utilizado para facilitar
+a criação de componentes, classes, services e outros.
+
+Comando para instalar
+
+    sudo npm install -g @angular/cli@1.1.0
+
+Criar um projeto
+
+    ng new app1
+
+Gerar o build do projeto (executar o webpack) e gerar um servidor
+    ng server ou ng serve
+
+
+O que é webpack?
+
+    Webpack é um module bundler (empacotador de módulos) para JavaScript, em outras palavras, ele junta os arquivos JS
+    (e também outros formatos) da sua aplicação (seja arquivos seus ou dependências externas) em um arquivo só
+    (ou mais de um), de forma otimizada. Os arquivos são unificados na ordem certa e sem duplicação.
+
+Como o webpack sabe quais arquivos incluir e em qual ordem?
+    Ele monta um grafo de dependências.
+
+    Partindo de um arquivo inicial (entrada), ele verifica quais outros arquivos são importados por este, e os
+    adiciona ao grafo. Para cada um desses ele também verifica quais eles importam, assim sucessivamente até que
+    o grafo contenha todos os arquivos (módulos) necessários para a aplicação.
+
+
+
+chunks (pedaços) / bundles (pacotes)
+
+    polyfills ->
+        Integra todos os polyfills da aplicação
+            Um polyfill é um pedaço de código (geralmente JavaScript na Web) usado para fornecer funcionalidades modernas
+            em navegadores mais antigos que não o suportam nativamente
+    main ->
+        Integra todos os modulos e componentes da aplicação
+    styles ->
+        Integra todos os arquivos de estilo da aplicação
+    vendor ->
+        Integra todas as bibliotecas angular da aplicação
+    inline ->
+        Integra os utilitários do webpack necessários para realizar o bootstraping da aplicação
+
+        Auxilia no carregamento dos demais scripts da aplicação.
+
+
+
