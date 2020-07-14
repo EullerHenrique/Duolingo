@@ -12,4 +12,6 @@ export class TentativasComponent implements OnInit {
   ngOnInit() {
   }
 
+
+
 }
