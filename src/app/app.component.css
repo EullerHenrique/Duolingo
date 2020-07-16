@@ -3,3 +3,18 @@ p{
   color: red;
 }
 
+/*
+
+  Data Binding
+    Comunicação entre o template HTML e o seu Component
+    ou
+    Comunicação entre componentes (de pai para filho ou de filho para pai)
+
+
+  One-Way-Binding
+
+    Component -> Template HTML = Property binding => {{data}}
+                                 String interpolation => {property} = "data"
+    Template HTML -> Component = Event binding  => (event) = "expression"
+
+ */
