@@ -3,6 +3,7 @@ import {Component} from "@angular/core";
 @Component({
   selector: 'app-topo',//Tag: app-topo, Atributo: [app-topo], Classe: .app-topo
   templateUrl: './topo.component.html',
+  styleUrls: ['./topo.component.css']
 
   /*
 
@@ -15,7 +16,7 @@ import {Component} from "@angular/core";
 
    */
 
-  styleUrls: ['./topo.component.css']
+
 
   /*
 
@@ -36,5 +37,6 @@ import {Component} from "@angular/core";
 
 
 export  class TopoComponent {
+  public duolingo_logo: string = "/assets/duolingo_logo.png";
 
 }
