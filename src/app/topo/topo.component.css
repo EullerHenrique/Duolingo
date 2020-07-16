@@ -1,3 +1,16 @@
 .navbar{
   background: #1CB0F6;
 }
+
+.topo{
+  min-width: 224px;
+}
+
+.navbar{
+  min-width: 148px;
+}
+
+.duolingo-logo{
+  width: 116px;
+}
+
