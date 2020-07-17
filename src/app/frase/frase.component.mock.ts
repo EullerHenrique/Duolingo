@@ -1,7 +1,7 @@
 import {Frase} from "./frase.component";
 
 
-/* O que é mock?
+/* O que é mock (simulaçao) ?
 
   Bom, quando falamos de teste de unidade, queremos testar as coisas isoladamente sem envolver outros componentes,
   mas o que acontece se seu componente (no caso do angular por exemplo) precisa de outro componente pra funcionar?
