@@ -20,7 +20,9 @@ export class PainelComponent {
     console.log(this.resposta);
   }
 
-
+  public verificarResposta(): void{
+    console.log("Verificar resposta: ",this.resposta);
+  }
 
 
 }
