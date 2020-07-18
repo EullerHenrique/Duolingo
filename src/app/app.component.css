@@ -13,8 +13,8 @@ p{
 
   One-Way-Binding
 
-    Component -> Template HTML = Property binding => {{data}}
-                                 String interpolation => {property} = "data"
-    Template HTML -> Component = Event binding  => (event) = "expression"
+    Component -> Template HTML = Property binding (ligação de propriedade) => [property] = "data"
+                                 String interpolation (interpolação de string) => {{data}}
+    Template HTML -> Component = Event binding  (ligação de evento)=> (event) = "expression"
 
  */
