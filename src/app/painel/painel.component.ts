@@ -17,18 +17,26 @@ export class PainelComponent {
   public i: number = 0;
   public frase: Frase;
 
+  public progresso: number = 0;
+
   public atualizarResposta(resposta: Event): void{
     this.resposta = ((<HTMLInputElement>resposta.target).value);
   }
 
   public verificarResposta(): void{
 
-    if(this.resposta == this.frase.frasePtBr){
+    if(this.resposta.trim() == this.frase.frasePtBr){
+
       //Troca a frase
 
       this.i++;
 
       this.frase = this.frases[this.i];
+
+      //Troca o progresso
+
+      this.progresso+=(100/this.frases.length);
+
 
     }else{
       alert('A tradução está errada');
