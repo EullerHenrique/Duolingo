@@ -13,7 +13,7 @@ export class PainelComponent {
 
   public frases: Frase[] = FRASES;
   public instrucao: string = "Traduza a frase: ";
-  public resposta: string;
+  public resposta: string = '';
   public i: number = 0;
   public frase: Frase;
 
@@ -31,12 +31,11 @@ export class PainelComponent {
 
       this.i++;
 
-      this.frase = this.frases[this.i];
+      this.atualizarFrase();
 
       //Troca o progresso
 
       this.progresso+=(100/this.frases.length);
-
 
     }else{
       alert('A tradução está errada');
@@ -44,9 +43,17 @@ export class PainelComponent {
 
   }
 
+  public atualizarFrase():void {
+    this.frase = this.frases[this.i];
+
+    //Limpar a resposta
+
+    this.resposta = '';
+  }
+
 
   constructor() {
-    this.frase = this.frases[this.i];
+    this.atualizarFrase();
   }
 
 }
