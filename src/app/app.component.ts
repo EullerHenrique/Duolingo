@@ -51,6 +51,46 @@ import { Component } from '@angular/core';
 
  */
 
+/*
+
+  Data Binding
+    Comunicação entre o template HTML e o seu Component
+
+      One-Way-Binding
+
+        Component -> Template HTML = Property binding (ligação de propriedade) => [property] = "data"
+                                     String interpolation (interpolação de string) => {{data}}
+        Template HTML -> Component = Event binding  (ligação de evento)=> (event) = "expression"
+
+      Two-way-Binding
+        Component <--> Template Html
+
+    Comunicação entre componentes (de pai para filho ou de filho para pai)
+      @input = Acessa o atributo do Property Binding presente no componente pai
+
+ */
+
+/*
+
+  Data Binding
+    Comunicação entre o template HTML e o seu Component
+
+      One-Way-Binding
+
+        Component -> Template HTML = Property binding (ligação de propriedade) => [property] = "data"
+                                     String interpolation (interpolação de string) => {{data}}
+        Template HTML -> Component = Event binding  (ligação de evento)=> (event) = "expression"
+
+      Two-way-Binding
+        Component <--> Template Html
+
+    Comunicação entre componentes (de pai para filho ou de filho para pai)
+      @input -> Property binding de pai para filho
+             -> Acessa o atributo do Property Binding presente no componente pai
+
+ */
+
+
 
 @Component({
   selector: 'app-root', //Tag html em que o componente será injetado
