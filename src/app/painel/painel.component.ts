@@ -16,10 +16,8 @@ export class PainelComponent {
   public resposta: string = '';
   public i: number = 0;
   public frase: Frase;
-
   public progresso: number = 0;
-
-  public qtdTentativas: number = 3;
+  public tentativas: number = 3;
 
   public atualizarResposta(resposta: Event): void{
     this.resposta = ((<HTMLInputElement>resposta.target).value);
@@ -43,9 +41,9 @@ export class PainelComponent {
 
       //Elimina uma tentativa, ou seja, um coração
 
-      this.qtdTentativas--;
+      this.tentativas--;
 
-      if(this.qtdTentativas == -1){
+      if(this.tentativas == -1){
         alert("GAME OVER");
       }
 
