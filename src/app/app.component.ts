@@ -88,6 +88,14 @@ import { Component } from '@angular/core';
       @input -> Property binding de pai para filho
              -> Acessa o atributo do Property Binding presente no componente pai
 
+
+    Diretivas
+      Diretivas são funcionalidades que manipulam o comportamento de elementos HTML no DOM
+
+      Componentes -> Diretivas com template
+      Estruturais -> ngFor, ngIf, nfSwtich, etc ... (Diretivas que criam estruturas html modificando o template)
+      Atributos -> Diretivas aplicadas a atributos de elementos HTML
+
  */
 
 
