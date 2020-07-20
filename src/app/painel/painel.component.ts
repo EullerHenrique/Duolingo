@@ -2,6 +2,7 @@ import { Component} from '@angular/core';
 
 import {Frase} from "../shared/frase.model";
 import {FRASES} from "../shared/frase.model.mock";
+import {CORACOES} from "../shared/coracao.model.mock";
 
 @Component({
   selector: 'app-painel',
@@ -17,7 +18,7 @@ export class PainelComponent {
   public i: number = 0;
   public frase: Frase;
   public progresso: number = 0;
-  public tentativas: number = 3;
+  public tentativas: number = CORACOES.length;
 
   public atualizarResposta(resposta: Event): void{
     this.resposta = ((<HTMLInputElement>resposta.target).value);
