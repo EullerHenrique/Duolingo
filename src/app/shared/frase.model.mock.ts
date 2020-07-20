@@ -1,4 +1,4 @@
-import {Frase} from "./frase.component";
+import {Frase} from "./frase.model";
 
 
 /* O que é mock (simulaçao) ?
