@@ -41,7 +41,7 @@ export class PainelComponent {
 
     }else{
 
-      //Perde-se uma tentativa, ou seja, um coração
+      //Perde uma tentativa, ou seja, um coração
 
       this.qtdTentativas--;
 
