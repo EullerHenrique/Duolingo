@@ -1,4 +1,6 @@
-import { Component} from '@angular/core';
+import { Component } from '@angular/core';
+import { CORACOES } from "../shared/coracao.model.mock";
+import {Coracao} from "../shared/coracao.model";
 
 @Component({
   selector: 'app-tentativas',
@@ -8,7 +10,8 @@ import { Component} from '@angular/core';
 
 export class TentativasComponent{
 
+  public coracoes: Coracao[] = CORACOES;
+
   public coracaoVazio: string = "/assets/coracao_vazio.png";
   public coracaoCheio: string = "/assets/coracao_cheio.png";
-  
 }
