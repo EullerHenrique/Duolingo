@@ -1,7 +1,7 @@
 import { Component} from '@angular/core';
 
-import { Frase } from "../frase/frase.component";
-import { FRASES } from "../frase/frase.component.mock"
+import {Frase} from "../shared/frase.model";
+import {FRASES} from "../shared/frase.model.mock";
 
 @Component({
   selector: 'app-painel',
