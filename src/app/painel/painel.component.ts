@@ -19,6 +19,8 @@ export class PainelComponent {
 
   public progresso: number = 0;
 
+  public qtdTentativas: number = 3;
+
   public atualizarResposta(resposta: Event): void{
     this.resposta = ((<HTMLInputElement>resposta.target).value);
   }
@@ -27,7 +29,7 @@ export class PainelComponent {
 
     if(this.resposta.trim() == this.frase.frasePtBr){
 
-      //Troca a frase
+      //Avança para a próxima frase
 
       this.i++;
 
@@ -38,7 +40,15 @@ export class PainelComponent {
       this.progresso+=(100/this.frases.length);
 
     }else{
-      alert('A tradução está errada');
+
+      //Perde-se uma tentativa, ou seja, um coração
+
+      this.qtdTentativas--;
+
+      if(this.qtdTentativas == -1){
+        alert("GAME OVER");
+      }
+
     }
 
   }
