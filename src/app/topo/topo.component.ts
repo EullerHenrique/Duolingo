@@ -37,7 +37,7 @@ import {Component} from "@angular/core";
 
 
 export  class TopoComponent {
-  public duolingo_logo: string = "/assets/duolingo_logo.png";
+  public duolingo_logo: string = "/assets/duo_logo.png";
 
 
 }
