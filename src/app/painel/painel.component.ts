@@ -55,13 +55,13 @@ export class PainelComponent {
 
     }else{
 
-      //Elimina uma tentativa, ou seja, um coração
+      //Elimina uma tentativa
 
       this.tentativas--;
 
       // Derrota
 
-      if(this.tentativas == -1){
+      if(this.tentativas == 0){
         this.encerrarJogo.emit('Derrota'); //O evento encerarJogo é emitido para o componente pai com a string Derrota como valor
       }
 
