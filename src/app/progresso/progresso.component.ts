@@ -12,7 +12,11 @@ export class ProgressoComponent {
   //@Input('xyz') public progresso: number = 25;
 
 
-  //O decorator input decora o atributo progresso com o atributo progresso presente no property binding
+  //O decorator input decora o atributo progresso,
+  //tal decoração permite que esse atributo acesse
+  //o valor do atributo progresso presente no property binding
+  //localizado no componente pai
+
   @Input() public progresso: number = 0;
 
 
