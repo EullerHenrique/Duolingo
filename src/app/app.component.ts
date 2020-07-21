@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CORACOES } from "./shared/coracao.model.mock";
 
 /*
   Os componentes são classes escritas em TypeScript que recebem o decorator @Component.
@@ -138,11 +139,20 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   public jogoEmAndamento: boolean = true;
+
   public status: string;
 
   public encerrarJogo(status: string): void{
     this.jogoEmAndamento = false;
     this.status = status;
+  }
+
+  public reiniciarJogo(): void{
+    this.jogoEmAndamento = true;
+
+    CORACOES[0].cheio = true;
+    CORACOES[1].cheio = true;
+    CORACOES[2].cheio = true;
   }
 
 }
