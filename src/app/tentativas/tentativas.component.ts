@@ -18,7 +18,28 @@ export class TentativasComponent implements OnChanges{
   @Input() public tentativas: number;
 
   ngOnChanges() {
-    console.log(this.tentativas);
+
+    if(this.tentativas !== this.coracoes.length){
+
+
+      // this.coracoes.length - this.tentativas
+
+      // 3 - 0 = 3
+      // 3 - 2 = 1
+      // 3 - 1 = 2
+
+      let i = this.coracoes.length - this.tentativas;
+
+      //i - 1
+
+      // 1 - 1 = 0 -> false
+      // 2 - 1 = 1 -> false
+      // 3 - 1 = 2 -> false
+
+      this.coracoes[i - 1].cheio = false;
+
+    }
+
   }
 
 }
