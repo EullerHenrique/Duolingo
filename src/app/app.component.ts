@@ -96,6 +96,28 @@ import { Component } from '@angular/core';
       Estruturais -> ngFor, ngIf, nfSwtich, etc ... (Diretivas que criam estruturas html modificando o template)
       Atributos -> Diretivas aplicadas a atributos de elementos HTML
 
+
+    LifeCycleHooks (Ganchos do ciclo de vida)
+
+      Principais
+
+        ngOnChanges() -> Método chamado antes da inicialização de um componente
+                      -> Método chamado a cada atualização do @Input(), ou seja, a cada atualização de um input de dados
+                      -> Método chamado sempre que um atributo recebido de um componente pai
+                        ( por meio  do decorator @Input ) é atualizado
+
+        ngOnInit()    -> Método chamado na inicialização de um componente
+
+        ngOnDestroy() -> Método chamado durante a destruição de um componente
+
+        ngDoCheck()
+        ngAfterContentInit()
+        ngAfterContentChecked()
+        ngAfterViewInit()
+        ngAfterViewChecked()
+
+
+
  */
 
 
