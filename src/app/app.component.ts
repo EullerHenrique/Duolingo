@@ -137,8 +137,11 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
 
+  public jogoEmAndamento: boolean = true;
+
   public encerrarJogo(status: string): void{
     console.log(status);
+    this.jogoEmAndamento = false;
   }
 
 }
