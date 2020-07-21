@@ -97,7 +97,7 @@ import { Component } from '@angular/core';
       Atributos -> Diretivas aplicadas a atributos de elementos HTML
 
 
-    LifeCycleHooks (Ganchos do ciclo de vida)
+    Lifecycle Hooks (Ganchos do ciclo de vida)
 
       Principais
 
