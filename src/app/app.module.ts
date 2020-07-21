@@ -20,7 +20,7 @@ import { ProgressoComponent } from './progresso/progresso.component';
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent] // Indicação do componente que será injetado na aplicação
+  bootstrap: [AppComponent] // Indicação do componente que será inserido na aplicação
 })
 
 
