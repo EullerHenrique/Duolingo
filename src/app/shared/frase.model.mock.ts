@@ -32,6 +32,12 @@ export const FRASES: Frase[] =
     new Frase('I like to learn', 'Eu gosto de aprender'),
     new Frase('I watch tv', 'Eu assisto tv'),
     new Frase('How are you? ', 'Como você está?'),
-    new Frase('I eat bread',  'Eu como pão')
+    new Frase('I eat bread',  'Eu como pão'),
+    new Frase('I have an important exam', 'Eu tenho uma prova importante'),
+    new Frase('A table for two, please','Uma mesa para dois, por favor'),
+    new Frase('He has a car','Ele tem um carro'),
+    new Frase('A white shirt','Uma camisa branca'),
+    new Frase('I live in a big house','Eu moro em uma casa grande'),
+    new Frase('They do not work here','Eles não trabalham aqui'),
 
   ];
