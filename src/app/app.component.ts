@@ -85,8 +85,14 @@ import { Component } from '@angular/core';
         Component <--> Template Html
 
     Comunicação entre componentes (de pai para filho ou de filho para pai)
-      @input -> Property binding de pai para filho
-             -> Acessa o atributo do Property Binding presente no componente pai
+
+      De pai para filho
+        @input -> Decorator que permite realizar o property binding do pai para o filho
+
+      De filho para pai
+        @output -> Decorator que permite realizar o event binding do filho para o pai
+                ->
+
 
 
     Diretivas
@@ -106,9 +112,9 @@ import { Component } from '@angular/core';
                       -> Método chamado sempre que um atributo recebido de um componente pai
                         ( por meio  do decorator @Input ) é atualizado
 
-        ngOnInit()    -> Método chamado na inicialização de um componente
+        ngOnInit()    -> Método chamado na inicialização (inserção do template do componente em seu seletor) de um componente
 
-        ngOnDestroy() -> Método chamado durante a destruição de um componente
+        ngOnDestroy() -> Método chamado durante a destruição (exclusão do template do componente de seu seletor) de um componente
 
         ngDoCheck()
         ngAfterContentInit()
@@ -123,12 +129,16 @@ import { Component } from '@angular/core';
 
 
 @Component({
-  selector: 'app-root', //Tag html em que o componente será injetado
+  selector: 'app-root', //Tag html em que o componente será inserido
   templateUrl: './app.component.html', //Html do componente
   styleUrls: ['./app.component.css']//Css do componente
 })
 
 
 export class AppComponent {
-  title = 'app'; //Titulo do componente
+
+  public encerrarJogo(status: string): void{
+    console.log(status);
+  }
+
 }
