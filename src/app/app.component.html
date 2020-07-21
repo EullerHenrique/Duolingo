@@ -1,7 +1,7 @@
 
 <app-topo> </app-topo>
 
-<div *ngIf="jogoEmAndamento">
+<div *ngIf="jogoEmAndamento; else fimDeJogo">
 
   <!--
 
@@ -15,6 +15,31 @@
 
 </div>
 
+
+<ng-template #fimDeJogo>
+
+  <div class="container">
+
+    <div class="painel-derrota row align-items-center justify-content-center">
+
+      <div class="col-9 jumbotron pt-3 pb-3">
+
+        <h3 class="text-center">Fim de Jogo</h3>
+
+          <div class="col d-flex justify-content-center">
+
+            <img class="duo-defeat" src="assets/duolingo_defeat.png">
+
+          </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+</ng-template>
 
 
 
