@@ -9,7 +9,6 @@ import { Coracao } from "../shared/coracao.model";
 })
 
 export class TentativasComponent implements OnChanges{
-
   public coracoes: Coracao[] = CORACOES;
 
   //O decorator input é executado após o construtor, portanto, o atributo tentativas não é
@@ -19,14 +18,15 @@ export class TentativasComponent implements OnChanges{
 
   ngOnChanges() {
 
-    if(this.tentativas !== this.coracoes.length){
-
+    if(this.coracoes.length !== this.tentativas){
 
       // this.coracoes.length - this.tentativas
 
       // 3 - 0 = 3
-      // 3 - 2 = 1
       // 3 - 1 = 2
+      // 3 - 2 = 1
+
+      //Determina o índice do coração que será eliminado
 
       let i = this.coracoes.length - this.tentativas;
 
@@ -36,10 +36,14 @@ export class TentativasComponent implements OnChanges{
       // 2 - 1 = 1 -> false
       // 3 - 1 = 2 -> false
 
+      //Elimina um coração
+
       this.coracoes[i - 1].cheio = false;
 
     }
 
   }
+
+
 
 }
