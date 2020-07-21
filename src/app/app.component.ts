@@ -87,11 +87,11 @@ import { Component } from '@angular/core';
     Comunicação entre componentes (de pai para filho ou de filho para pai)
 
       De pai para filho
-        @input -> Decorator que permite realizar o property binding do pai para o filho
+        @input -> Decorator que permite realizar a ligação de propriedade (property binding) do pai para o filho
 
       De filho para pai
-        @output -> Decorator que permite realizar o event binding do filho para o pai
-                ->
+        @output -> Decorator que permite realizar a ligação de evento (event binding) do filho para o pai
+
 
 
 
@@ -138,10 +138,11 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   public jogoEmAndamento: boolean = true;
+  public status: string;
 
   public encerrarJogo(status: string): void{
-    console.log(status);
     this.jogoEmAndamento = false;
+    this.status = status;
   }
 
 }
