@@ -1,14 +1,14 @@
 
 <app-topo> </app-topo>
 
-<div *ngIf="jogoEmAndamento; else fimDeJogo">
+<div *ngIf="jogoEmAndamento; else Derrota">
 
   <!--
 
-    Se o EventEmitter encerrarJogo emitir um evento,
-    o evento será enviado para a função encerrarJogo
+   Assim que o evento encerrarJogo for detectado (ou seja, assim que ele for emitido no componente filho),
+   ele será enviado para função encerrarJogo
 
-    Obs: No caso, o evento é apenas uma string
+   Obs: No caso, o valor do evento é uma string
 
     -->
   <app-painel (encerrarJogo)="encerrarJogo($event)"></app-painel>
@@ -16,7 +16,34 @@
 </div>
 
 
-<ng-template #fimDeJogo>
+<ng-template #Derrota>
+
+  <div *ngIf="status === 'Derrota'; else Vitoria">
+    <div class="container">
+
+      <div class="painel-derrota row align-items-center justify-content-center">
+
+        <div class="col-9 jumbotron pt-3 pb-3">
+
+          <h3 class="derrota text-center">Fim de Jogo</h3>
+
+            <div class="col d-flex justify-content-center">
+
+              <img class="duo-defeat" src="assets/duo_defeat.png">
+
+            </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+</ng-template>
+
+<ng-template #Vitoria>
 
   <div class="container">
 
@@ -24,20 +51,19 @@
 
       <div class="col-9 jumbotron pt-3 pb-3">
 
-        <h3 class="text-center">Fim de Jogo</h3>
+        <h3 class="vitoria text-center">Perfeito!! </h3>
 
-          <div class="col d-flex justify-content-center">
+        <div class="col d-flex justify-content-center">
 
-            <img class="duo-defeat" src="assets/duolingo_defeat.png">
+          <img class="duo-defeat" src="assets/duo_victory.png">
 
-          </div>
+        </div>
 
       </div>
 
     </div>
 
   </div>
-
 
 </ng-template>
 
