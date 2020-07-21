@@ -1,16 +1,19 @@
 
 <app-topo> </app-topo>
 
-<!--
+<div *ngIf="jogoEmAndamento">
 
-  Se o EventEmitter encerrarJogo emitir um evento,
-  o evento será enviado para a função encerrarJogo
+  <!--
 
-  Obs: No caso, o evento é apenas uma string
+    Se o EventEmitter encerrarJogo emitir um evento,
+    o evento será enviado para a função encerrarJogo
 
-  -->
-<app-painel (encerrarJogo)="encerrarJogo($event)"></app-painel>
+    Obs: No caso, o evento é apenas uma string
 
+    -->
+  <app-painel (encerrarJogo)="encerrarJogo($event)"></app-painel>
+
+</div>
 
 
 
