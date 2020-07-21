@@ -21,7 +21,9 @@ export class PainelComponent {
   public tentativas: number = CORACOES.length;
 
   //O decorator output decora o atributo encerrarJogo (possui como valor a instância de um emissor de eventos),
-  //tal decoração permite que esse atributo seja acessado pelo componente pai
+  //tal decoração transforma esse atributo em um evento.
+
+  //Dessa maneira, o evento pode ser utilizado no componente pai.
 
   @Output() public encerrarJogo: EventEmitter<string> = new EventEmitter();
 
@@ -48,7 +50,7 @@ export class PainelComponent {
       //Vitória
 
       if(this.i == this.frases.length){
-        this.encerrarJogo.emit('Vitória'); // Emite o evento Vitória para o componente pai
+        this.encerrarJogo.emit('Vitoria'); // O evento encerrarJgo é emitido para o componente pai com a string Vitória como valor
       }
 
     }else{
@@ -60,7 +62,7 @@ export class PainelComponent {
       // Derrota
 
       if(this.tentativas == -1){
-        this.encerrarJogo.emit('Derrota'); //Emite o evento Derrota para o componente pai
+        this.encerrarJogo.emit('Derrota'); //O evento encerarJogo é emitido para o componente pai com a string Derrota como valor
       }
 
     }
