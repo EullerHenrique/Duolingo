@@ -1,7 +1,7 @@
 export class Coracao {
 
   constructor(
-    public cheio: boolean,
+    public cheio: boolean = true,
     public urlCoracaoCheio: string = "/assets/coracao_cheio.png",
     public urlCoracaoVazio: string = "/assets/coracao_vazio.png"
   ) {}
