@@ -23,8 +23,7 @@
 ## Derrota
 
 ![eullerhenrique github io_Project_Duolingo_ (5)](https://user-images.githubusercontent.com/48317736/88221050-453cbf80-cc3a-11ea-81e5-93eab7dd18a8.png)
-#  Instruções Iniciais                                       
-
+#  Instruções Iniciais   
 
   **Passo 1:** Instale o Node.js:    
 
@@ -52,7 +51,6 @@
             
             
 # Build e Deploy
-
 
   ## Build e Deploy via angular cli 
     
