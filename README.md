@@ -51,27 +51,59 @@
    
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ng serve**
 
-   **Passo 2:** Acesse o servidor gerado (porta padrão = localhost:4200) em seu navegador                 
+ **Passo 4:** Acesse em seu navegador o servidor gerado:  
+ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **localhost:4200**/**127.0.0.1:4200** (Somente o dispositivo atual pode acessar esse servidor)  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ou  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ip_do_roteador:4200**(Qualquer dispositivo pode acessar esse servidor)  
+                      
 
   ## Build via Angular cli e Deploy via servidor HTTP
   
-   **Passo 1:** Gere uma build de produção:      
+   **Passo 1:** Entre na pasta src e gere uma build de produção:      
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ng build --prod --aot=false --base-href pasta-raiz**  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ex: ng build --prod --aot=false --base-href dist
 
-   **Passo 2:** Atualize os caminhos das imagens      
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Como a pasta raiz foi trocada, os caminho para as imagens        devem ser atualizados  
+   **Passo 2:** Atualize os caminhos para as imagens:      
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Como a pasta raiz foi trocada, os caminhos para as imagens        devem ser atualizados  
    
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nos caminhos que comemçam com "/assets...", retire a barra
 
    **Passo 3:** Insira a pasta dist na pasta pública (ex: public_html) do servidor HTTP (ex: Apache)  
    
-   **Passo 4:** Acesse o servidor gerado (porta padrão = localhost:8080) em seu navegador    
+ **Passo 4:** Acesse em seu navegador o servidor gerado:  
+ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **localhost:8080**/**127.0.0.1:8080** (Somente o dispositivo atual pode acessar esse servidor)  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ou  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ip_do_roteador:8080**(Qualquer dispositivo pode acessar esse servidor)  
+                
+                  
    
  
   ## Deploy local via pacote HTTP-server
+  
+  **Passo 1:** Instale o HTTP-server:       
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **sudo npm install http-server -g**  
+               
+  **Passo 2:** Entre na pasta dist e gere um servidor:    
+  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**sudo npm install http-server -g**
+ 
+ **Passo 4:** Acesse em seu navegador o servidor gerado:  
+ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **localhost:8080**/**127.0.0.1:8080** (Somente o dispositivo atual pode acessar esse servidor)  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ou  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ip_do_roteador:8080**(Qualquer dispositivo pode acessar esse servidor)  
+                       
+            
        
-  Rode o comando http-server dentro da pasta dist
+  
            
            
   ## Deploy via Angular cli gh-pages        
