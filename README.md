@@ -1,1 +1,1 @@
-https://eullerhenrique.github.io/Projeto_Duolingo/
+https://eullerhenrique.github.io/Project_Duolingo/
