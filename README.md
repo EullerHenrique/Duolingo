@@ -111,12 +111,6 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ip_do_roteador:8080**(Qualquer dispositivo pode acessar esse     servidor)    
                        
             
-       
-  
-           
-           
-  ## Deploy via Angular cli gh-pages        
-
   
 
 
