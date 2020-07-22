@@ -47,7 +47,7 @@
 
   **Passo 6:** Exclua a pasta src  
 
-  **Passo 7:** Baixe o projeto duolingo e insira a pasta src no diretório nome-do-projeto  
+  **Passo 7:** Baixe o repositório e insira a pasta src no diretório nome-do-projeto  
             
             
 # Build e Deploy:
