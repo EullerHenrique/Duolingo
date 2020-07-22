@@ -100,7 +100,7 @@
                
   **Passo 2:** Entre na pasta dist e gere um servidor:    
   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**sudo npm install http-server -g**
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**http-server**
  
  **Passo 4:** Acesse em seu navegador o servidor gerado:  
  
