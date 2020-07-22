@@ -6,7 +6,7 @@
 
 ##### Projeto base: Projeto Aprendendo Inglês 
 
-####  Curso: [ES6, TYPSCRIPT E ANGULAR 4](https://www.udemy.com/course/curso-de-desenvolvimento-web-com-es6-typescript-e-angular-4/). 
+##### Curso: [ES6, TYPSCRIPT E ANGULAR 4](https://www.udemy.com/course/curso-de-desenvolvimento-web-com-es6-typescript-e-angular-4/). 
 
 ##### Foco do projeto: JAVASCRIPT MODERNO ES6 (ECMAScript 2016), TYPESCRIPT E ANGULAR 4
 
