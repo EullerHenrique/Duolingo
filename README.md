@@ -6,7 +6,7 @@
 
 ##### Esse projeto foi desenvolvido com base no projeto  do curso [ES6, TYPSCRIPT E ANGULAR 4](https://www.udemy.com/course/curso-de-desenvolvimento-web-com-es6-typescript-e-angular-4/). 
 
-##### O foco desse projeto foi aplicar conhecimentos relacionados a HTML, CSS, BOOTSTRAP 4, JAVASCRIPT MODENO ES6 (ECMAScript 2016), TYPESCRIPT E ANGULAR 4
+##### O foco desse projeto foi aplicar conhecimentos relacionados a HTML, CSS, BOOTSTRAP 4, JAVASCRIPT MODERNO ES6 (ECMAScript 2016), TYPESCRIPT E ANGULAR 4
 
 ## Tradução
 
