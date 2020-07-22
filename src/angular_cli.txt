@@ -48,7 +48,7 @@ chunks (pedaços) / bundles (pacotes)
             Um polyfill é um pedaço de código (geralmente JavaScript na Web) usado para fornecer funcionalidades modernas
             em navegadores mais antigos que não o suportam nativamente
     main ->
-        Integra todos os modulos e componentes da aplicação
+        Integra todos os módulos e componentes da aplicação
     styles ->
         Integra todos os arquivos de estilo da aplicação
     vendor ->
@@ -99,7 +99,15 @@ Gerar o build (executar o webpack) de produção (Destinada à publicação)
 
     Deploy local via servidor HTTP
 
-        Colocar a pasta dist na pasta pública (public_html) do servidor HTTP (ex: Apache)
+      * Rode o comando
+
+          ng build --prod --aot=false --base-href <"Pasta-raiz">
+
+      * Como a pasta raiz foi trocada, os caminho para as imagens devem ser atualizados
+          Nos caminhos que comemçam com "/assets...", retire a barra
+
+      * Coloque a pasta dist na pasta pública (public_html) do servidor HTTP (ex: Apache)
+
 
         Projeto acessível por meio de dois servidores:
             1)Servidor que utiliza o ip do roteador (Qualquer dispositivo pode acessar esse servidor)
@@ -123,5 +131,24 @@ Gerar o build (executar o webpack) de produção (Destinada à publicação)
                 2)Servidor que utiliza o ip do computador (Somente o dispositivo atual pode acessar esse servidor (localhost))
 
 
+
+
+      Build para o git hub pages
+
+          Use a CLI Angular com o --base-href sinalizador para criar seu projeto e defina o local href base correto:
+
+            ng build --prod --ato=false --base-href "<repo-name>"
+
+            ex:  ng build --prod --ato=false --base-href ngh https://eullerhenrique.github.io/Projeto_Duolingo/
+
+
+    Deploy para o git hub pages
+
+        Instale o angular-cli-ghpages (ngh) globalmente:
+
+            sudo npm install -g angular-cli-ghpages
+
+         Execute o angular-cli-ghpages
+              sudo ngh
 
 
