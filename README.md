@@ -37,13 +37,13 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**sudo npm install bootstrap**    
 
 **Passo 5:** Crie um novo pojeto:  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ng new nome-do-projeto **      
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ng new nome-do-projeto**      
 
 **Passo 6:** Exclua a pasta src
 
 **Passo 7:** Baixe o projeto duolingo e insira a pasta src no diretório nome-do-projeto
 
-**Passo 8:** Gere o build e gere um servidor remoto:
+**Passo 8:** Gere o build e gere um servidor remoto:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ng serve**    
             
             
