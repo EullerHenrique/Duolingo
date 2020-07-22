@@ -92,7 +92,7 @@
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ip_do_roteador:8080** (Qualquer dispositivo pode acessar esse    servidor)  
                 
                   
-  ## BUild via Angular cli e Deploy via HTTP-server
+  ## Build via Angular cli e Deploy via HTTP-server
   
    **Passo 1:** Instale o HTTP-server:  
   
