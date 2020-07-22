@@ -1,12 +1,12 @@
-## Site Online:
+# Site Online:
 ###### https://eullerhenrique.github.io/Project_Duolingo/
 
 
-## Projeto Duolingo: 
+# Projeto Duolingo: 
 
 ##### Esse projeto foi desenvolvido com base no projeto  do curso [ES6, TYPSCRIPT E ANGULAR 4](https://www.udemy.com/course/curso-de-desenvolvimento-web-com-es6-typescript-e-angular-4/). 
 
-##### O foco desse projeto foi aplicar conhecimentos relacionados a HTML, CSS, BOOTSTRAP 4, JAVASCRIPT ES6, TYPESCRIPT E ANGULAR 4
+##### O foco desse projeto foi aplicar conhecimentos relacionados a HTML, CSS, BOOTSTRAP 4, JAVASCRIPT MODENO ES6 (ECMAScript 2016), TYPESCRIPT E ANGULAR 4
 
 ## Tradução
 
@@ -22,7 +22,26 @@
 
 
 
+# Build
 
+**Passo 1:** Instale o Node.js:       
+          **sudo apt-get install nodejs**
+**Passo 2:** Instale o npm:           
+          **sudo apt-get install npm**
+**Passo 3:** Instale o Angular Cli 1.1.0 (Contém o Angular 4):   
+          **sudo npm install -g @angular/cli@1.1.0**
+**Passo 4:** Instale o Bootstrap 4:   
+          **sudo npm install bootstrap**
+**Passo 5:** Crie um novo pojeto:
+            **ng new nome-do-projeto **
+**Passo 6:** Exclua a pasta src
+**Passo 7:** Baixe o projeto duolingo e insira a pasta src no diretório nome-do-projeto
+**Passo 8:** Gere o build e gere um servidor remoto
+            **ng serve**
+            
+            
+# Deploy
 
+  
 
 
