@@ -23,7 +23,7 @@
 ## Derrota
 
 ![eullerhenrique github io_Project_Duolingo_ (5)](https://user-images.githubusercontent.com/48317736/88221050-453cbf80-cc3a-11ea-81e5-93eab7dd18a8.png)
-#  Instruções Iniciais   
+#  Instruções Iniciais:   
 
   **Passo 1:** Instale o Node.js:    
 
@@ -50,9 +50,9 @@
   **Passo 7:** Baixe o projeto duolingo e insira a pasta src no diretório nome-do-projeto  
             
             
-# Build e Deploy
+# Build e Deploy:
 
-  ## Build e Deploy via angular cli 
+  ## Build e Deploy via angular cli: 
     
    **Passo 1:** Gere um build e um servidor local remoto:  
    
@@ -63,7 +63,7 @@
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **localhost:4200**/**127.0.0.1:4200** (Somente o dispositivo       atual pode acessar esse servidor)  
                       
 
-  ## Build via Angular cli e Deploy via servidor HTTP
+  ## Build via Angular cli e Deploy via servidor HTTP:
   
    **Passo 1:** Entre na pasta src e gere uma build de produção:    
    
@@ -88,7 +88,7 @@
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ip_do_roteador:8080** (Qualquer dispositivo pode acessar esse    servidor)  
                 
                   
-  ## Build via Angular cli e Deploy via HTTP-server
+  ## Build via Angular cli e Deploy via HTTP-server:
   
    **Passo 1:** Instale o HTTP-server:  
   
