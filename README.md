@@ -67,11 +67,14 @@
 
   ## Build via Angular cli e Deploy via servidor HTTP
   
-   **Passo 1:** Entre na pasta src e gere uma build de produção:      
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ng build --prod --aot=false --base-href pasta-raiz**  
+   **Passo 1:** Entre na pasta src e gere uma build de produção:    
+   
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ng build --prod --aot=false --base-href pasta-raiz**   
+
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ex: ng build --prod --aot=false --base-href dist
 
-   **Passo 2:** Atualize os caminhos para as imagens:      
+   **Passo 2:** Atualize os caminhos para as imagens:     
+   
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Como a pasta raiz foi trocada, os caminhos para as imagens        devem ser atualizados  
    
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nos caminhos que comemçam com "/assets...", retire a barra
