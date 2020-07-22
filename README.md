@@ -24,15 +24,15 @@
 
 # Build
 
-**Passo 1:** Instale o Node.js:       
+**Passo 1:** Instale o Node.js       
           **sudo apt-get install nodejs**
-**Passo 2:** Instale o npm:           
+**Passo 2:** Instale o npm           
           **sudo apt-get install npm**
-**Passo 3:** Instale o Angular Cli 1.1.0 (Contém o Angular 4):   
+**Passo 3:** Instale o Angular Cli 1.1.0 (Contém o Angular 4)   
           **sudo npm install -g @angular/cli@1.1.0**
-**Passo 4:** Instale o Bootstrap 4:   
+**Passo 4:** Instale o Bootstrap 4   
           **sudo npm install bootstrap**
-**Passo 5:** Crie um novo pojeto:
+**Passo 5:** Crie um novo pojeto
             **ng new nome-do-projeto **
 **Passo 6:** Exclua a pasta src
 **Passo 7:** Baixe o projeto duolingo e insira a pasta src no diretório nome-do-projeto
