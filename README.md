@@ -23,24 +23,29 @@
 
 
 
-**Passo 1:** Instale o Node.js:       
+**Passo 1:** Instale o Node.js:    
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**sudo apt-get install nodejs**    
 
-**Passo 2:** Instale o npm:           
+**Passo 2:** Instale o npm:    
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**sudo apt-get install npm**  
 
-**Passo 3:** Instale o Angular Cli 1.1.0 (Contém o Angular 4)   
+**Passo 3:** Instale o Angular Cli 1.1.0 (Contém o Angular 4):
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**sudo npm install -g @angular/cli@1.1.0**      
 
 **Passo 4:** Instale o Bootstrap 4:   
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**sudo npm install bootstrap**    
 
 **Passo 5:** Crie um novo pojeto:  
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ng new nome-do-projeto**      
 
-**Passo 6:** Exclua a pasta src
+**Passo 6:** Exclua a pasta src  
 
-**Passo 7:** Baixe o projeto duolingo e insira a pasta src no diretório nome-do-projeto
+**Passo 7:** Baixe o projeto duolingo e insira a pasta src no diretório nome-do-projeto  
             
             
 # Build e Deploy
@@ -86,20 +91,21 @@
  
   ## Deploy local via pacote HTTP-server
   
-  **Passo 1:** Instale o HTTP-server:       
+  **Passo 1:** Instale o HTTP-server:  
+  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **sudo npm install http-server -g**  
                
   **Passo 2:** Entre na pasta dist e gere um servidor:    
   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**sudo npm install http-server -g**
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**sudo npm install http-server -g**
  
  **Passo 4:** Acesse em seu navegador o servidor gerado:  
  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **localhost:8080**/**127.0.0.1:8080** (Somente o dispositivo atual pode acessar esse servidor)  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **localhost:8080**/**127.0.0.1:8080** (Somente o dispositivo     atual pode acessar esse servidor)  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ou  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ou  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ip_do_roteador:8080**(Qualquer dispositivo pode acessar esse servidor)  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ip_do_roteador:8080**(Qualquer dispositivo pode acessar esse     servidor)    
                        
             
        
