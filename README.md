@@ -59,10 +59,6 @@
  **Passo 4:** Acesse em seu navegador o servidor gerado:  
  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **localhost:4200**/**127.0.0.1:4200** (Somente o dispositivo atual pode acessar esse servidor)  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ou  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ip_do_roteador:4200**(Qualquer dispositivo pode acessar esse servidor)  
                       
 
   ## Build via Angular cli e Deploy via servidor HTTP
