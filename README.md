@@ -92,7 +92,7 @@
                   
    
  
-  ## Deploy local via pacote HTTP-server
+  ## BUild via Angular cli e Deploy via HTTP-server
   
   **Passo 1:** Instale o HTTP-server:  
   
