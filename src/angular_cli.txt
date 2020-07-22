@@ -11,7 +11,7 @@ Criar um projeto
 
     ng new app1
 
-Realizar o build do projeto (executar o webpack) e criar um servidor
+Gerar o build (executar o webpack) e gerar um servidor remoto
     ng server ou ng serve
 
 Criar um componente
@@ -57,6 +57,71 @@ chunks (pedaços) / bundles (pacotes)
         Integra os utilitários do webpack necessários para realizar o bootstraping da aplicação
 
         Auxilia no carregamento dos demais scripts da aplicação.
+
+
+
+
+Gerar o build (executar o webpack) de desenvolvimento (Destinada ao programador)
+
+   ng build ou ng build --dev
+
+Obs: Como essa build é destinada ao desenvolvimento, ela possui
+arquivos .map, tais recursos são utilizados para o auxiliar o processo de debug (identificar e corrigir bugs/erros)
+
+Gerar o build (executar o webpack) de produção (Destinada à publicação)
+
+  ng build --prod --aot=false
+
+
+  Diferenciais:
+
+  * Os nomes dos arquivos são concatenados com um timeStamp, ou seja, o tempo ( em milissegundos desde 1970 )
+  no momento em que o arquivo foi gerado. Isso é feito para que se o projeto for atualizado, o navegador carregue
+  os novos arquivos, e não os arquivos armazenados no cache.
+
+  * O bundle destinado a armazenar arquivos css deixa de possuir a extensão .js para ter a extensão .css
+
+  * Todos os códigos são minificados, ou seja, espaços são removidos, quebras de linha e comentários.
+  Dessa maneira, o tamanho de cada arquivo é reduzido
+
+  * O código passa por um processo de ofuscagem, ou seja, os nomes das variáveis são reduzidas o máximo possível.
+  Dessa maneira, os tamanho de cada arquivo é reduzido. Ex: let tamanho12345 -> let a
+
+  * O debug se torna praticamente impossível
+
+
+
+  Obs: O build será armazenado na pasta dist
+
+
+
+  Deploy (implantar, colocar em posição, disponibilizar para uso, "colocar no ar")
+
+    Deploy local via servidor HTTP
+
+        Colocar a pasta dist na pasta pública (public_html) do servidor HTTP (ex: Apache)
+
+        Projeto acessível por meio de dois servidores:
+            1)Servidor que utiliza o ip do roteador (Qualquer dispositivo pode acessar esse servidor)
+            2)Servidor que utiliza o ip do computador (Somente o dispositivo atual pode acessar esse servidor (localhost))
+
+
+
+    Deploy local via pacote HTTP-server
+        Instalar
+
+          npm install http-server -g
+
+          Obs: -g -> global, o http-server pode ser utilizado em qualquer local do sistema operacional
+          por meio da linha de comando
+
+        Gerar http-server
+
+           Rode o comando http-server dentro da pasta dist
+              Dois servidores serão gerados
+                1)Servidor que utiliza o ip do roteador (Qualquer dispositivo pode acessar esse servidor)
+                2)Servidor que utiliza o ip do computador (Somente o dispositivo atual pode acessar esse servidor (localhost))
+
 
 
 
