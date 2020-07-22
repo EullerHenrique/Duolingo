@@ -48,27 +48,30 @@
    ## Build e Deploy via angular cli 
     
    **Passo 1:** Gere um build e um servidor local remoto:  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ng serve**
+   
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ng serve**
 
    **Passo 2:** Acesse o servidor gerado (porta padrão = localhost:4200) em seu navegador                 
 
   ## Build via Angular cli e Deploy via servidor HTTP
   
-   **Passo 1:**: Gere uma build de produção                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ng build --prod --aot=false --base-href pasta-raiz  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ex: ng build --prod --aot=false --base-href dist
+   **Passo 1:** Gere uma build de produção:      
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ng build --prod --aot=false --base-href pasta-raiz**  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ex: ng build --prod --aot=false --base-href dist
 
-   **Passo 2:**: Atualize os caminhos das imagens      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Como a pasta raiz foi trocada, os caminho para as imagens devem ser atualizados  
+   **Passo 2:** Atualize os caminhos das imagens      
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Como a pasta raiz foi trocada, os caminho para as imagens        devem ser atualizados  
    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nos caminhos que comemçam com "/assets...", retire a barra
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nos caminhos que comemçam com "/assets...", retire a barra
 
-   **Passo 3:**: Insira a pasta dist na pasta pública (ex: public_html) do servidor HTTP (ex: Apache)  
+   **Passo 3:** Insira a pasta dist na pasta pública (ex: public_html) do servidor HTTP (ex: Apache)  
    
    **Passo 4:** Acesse o servidor gerado (porta padrão = localhost:8080) em seu navegador    
    
  
   ## Deploy local via pacote HTTP-server
        
-           Rode o comando http-server dentro da pasta dist
+  Rode o comando http-server dentro da pasta dist
            
            
   ## Deploy via Angular cli gh-pages        
