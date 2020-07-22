@@ -10,16 +10,15 @@
 
 ## Tradução
 
-![eullerhenrique github io_Project_Duolingo_ (3)](https://user-images.githubusercontent.com/48317736/88220928-10306d00-cc3a-11ea-8456-2cbb66d013cd.png)
+![eullerhenrique github io_Project_Duolingo_ (4)](https://user-images.githubusercontent.com/48317736/88221001-31915900-cc3a-11ea-9451-98f1bd3bad54.png)
 
 ## Vitória
 
-![eullerhenrique github io_Project_Duolingo_ (2)](https://user-images.githubusercontent.com/48317736/88220857-f2630800-cc39-11ea-81b0-642bb9686cae.png)
+![eullerhenrique github io_Project_Duolingo_ (7)](https://user-images.githubusercontent.com/48317736/88221211-82a14d00-cc3a-11ea-94c8-44fb1ef1e68b.png)
 
 ## Derrota
 
-![eullerhenrique github io_Project_Duolingo_ (1)](https://user-images.githubusercontent.com/48317736/88220705-b4fe7a80-cc39-11ea-93e4-d8eea8bc44e6.png)
-
+![eullerhenrique github io_Project_Duolingo_ (5)](https://user-images.githubusercontent.com/48317736/88221050-453cbf80-cc3a-11ea-81e5-93eab7dd18a8.png)
 
 
 
