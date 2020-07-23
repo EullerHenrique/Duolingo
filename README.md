@@ -29,9 +29,27 @@
 
 ##### Projeto base oriundo do curso: [ES6, TYPSCRIPT E ANGULAR 4](https://www.udemy.com/course/curso-de-desenvolvimento-web-com-es6-typescript-e-angular-4/) 
 
-##### Foco: JAVASCRIPT MODERNO ES6 (ECMAScript 2016), TYPESCRIPT E ANGULAR 4
+## :star: Foco De Aprendizado :star:
 
-####  Tecnologias utilizadas: HTML, CSS,  JAVASCRIPT MODERNO ES6 (ECMAScript 2016), Bootstrap 4, TYPESCRIPT E ANGULAR 4
+ - Como iniciar projetos Angular 4 via Angular-CLI
+ - Como a SPA é iniciada no browser
+ - Como criar componentes
+ - Como integrar o Bootstrap 4 ao projeto (para criar aplicações responsivas)
+ - Databinding (string interpolation, property binding e event binding)
+ - LifeCicly Hooks (ngOnInit, ngOnChanges, ngOnDestroy)
+ - Diretivas (ngFor e ngIf)
+ - @Input e @Output
+
+
+## Tecnologias Utilizadas
+
+ - **HTML 5**
+ - **CSS**
+ - **JAVASCRIPT MODERNO ES6 (ECMAScript 2016)**
+ - **BOOTSTRAP 4**
+ - **NODE JS**
+ - **TYPESCRIPT**
+ - **ANGULAR 4**
 
 
 ## 🎨 Layout 🎨  
