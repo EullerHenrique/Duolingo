@@ -1,7 +1,7 @@
 
 
 
-# Duolingo: 
+# Duolingo
 
 <p align="center">
  
