@@ -1,7 +1,7 @@
 
 
 
-# Projeto Duolingo: 
+# Project Duolingo: 
 
 <p align="center">
  
