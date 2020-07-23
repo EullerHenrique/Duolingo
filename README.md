@@ -35,11 +35,11 @@
 - [Instalação](#instalação)
 
 - [Build e Deploy](#build-e-deploy)
-  -[Build e Deploy via angular cli](#build-e-deploy-via-angular-cli)
+  - [Build e Deploy via angular cli](#build-e-deploy-via-angular-cli)
   
-  -[Build via Angular cli e Deploy via servidor HTTP](#build-via-angular-cli-e-deploy-via-servidor-http)
+  - [Build via Angular cli e Deploy via servidor HTTP](#build-via-angular-cli-e-deploy-via-servidor-http)
   
-  -[Build via Angular cli e Deploy via HTTP-server](#build-via-angular-cli-e-deploy-via-http-server)
+  - [Build via Angular cli e Deploy via HTTP-server](#build-via-angular-cli-e-deploy-via-http-server)
   
   
 
