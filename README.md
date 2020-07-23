@@ -20,10 +20,21 @@
  
 </p>
 
-<p align="center">
-  <a href="#page-online">Page Online</a> |
-  
-</p>
+### Tópicos 
+
+:small_blue_diamond: [Page Online](#page-online)
+
+:small_blue_diamond: [Projeto Base](#projeto-base)
+
+:small_blue_diamond: [Aprendizados](#aprendizados)
+
+:small_blue_diamond: [Tecnologias utilizadas](#tecnologias-utilizadas)
+
+:small_blue_diamond: [Layout](#layout)
+
+:small_blue_diamond: [Instalação](#instalação)
+
+:small_blue_diamond: [Build e Deploy](#build-e-deploy)
 
 ## Page Online
     
