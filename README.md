@@ -123,15 +123,15 @@
       
       ex: ng build --prod --aot=false --base-href dist
 
-   **Passo 2:** Atualize os caminhos para as imagens:     
+   **2.** Atualize os caminhos para as imagens:     
     
     Como a pasta raiz foi trocada, os caminhos para as imagens devem ser atualizados  
     
     Nos caminhos que comemçam com "/assets...", retire a barra
 
-   **Passo 3:** Insira a pasta dist na pasta pública (ex: public_html) do servidor HTTP (ex: Apache)  
+   **3.** Insira a pasta dist na pasta pública (ex: public_html) do servidor HTTP (ex: Apache)  
    
-   **Passo 4:** Acesse em seu navegador o servidor gerado
+   **4:** Acesse em seu navegador o servidor gerado
    
     localhost:8080 || 127.0.0.1:8080 (Somente o dispositivo atual pode acessar esse servidor)  
    
