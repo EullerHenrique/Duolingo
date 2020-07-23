@@ -20,10 +20,9 @@
 <img alt="GitHub" src="https://img.shields.io/github/license/EullerHenrique/Project_Duolingo">
 
 <img src="http://img.shields.io/static/v1?label=status&message=concluded&color=GREEN&style=plastic"/>
-
-
  
 </p>
+
 
 ##### Site Online: https://eullerhenrique.github.io/Project_Duolingo/
 
@@ -35,17 +34,21 @@
 
 ####  Tecnologias utilizadas: HTML, CSS,  JAVASCRIPT MODERNO ES6 (ECMAScript 2016), Bootstrap 4, TYPESCRIPT E ANGULAR 4
 
-## Tradução
 
-![eullerhenrique github io_Project_Duolingo_ (4)](https://user-images.githubusercontent.com/48317736/88221001-31915900-cc3a-11ea-9451-98f1bd3bad54.png)
+## 🎨 Layout 🎨  
 
-## Vitória
+<p align="center"> <strong> Translate </strong> </p>
 
-![eullerhenrique github io_Project_Duolingo_ (7)](https://user-images.githubusercontent.com/48317736/88221211-82a14d00-cc3a-11ea-94c8-44fb1ef1e68b.png)
+<img src="https://user- images.githubusercontent.com/48317736/88221001-31915900-cc3a-11ea-9451-98f1bd3bad54.png">
 
-## Derrota
+<p align="center"> <strong> Sucess </strong> </p>
 
-![eullerhenrique github io_Project_Duolingo_ (5)](https://user-images.githubusercontent.com/48317736/88221050-453cbf80-cc3a-11ea-81e5-93eab7dd18a8.png)
+<img src="https://user-images.githubusercontent.com/48317736/88221211-82a14d00-cc3a-11ea-94c8-44fb1ef1e68b.png"><br>
+
+<p align="center"> <strong> Failure </strong> </p></p>
+
+<img src="https://user-images.githubusercontent.com/48317736/88221050-453cbf80-cc3a-11ea-81e5-93eab7dd18a8.png"><br>
+
 #  Instruções Iniciais:   
 
   **Passo 1:** Instale o Node.js:    
