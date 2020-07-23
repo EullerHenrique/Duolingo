@@ -23,7 +23,7 @@
  
 </p>
 
-##### Site Online: https://eullerhenrique.github.io/Project_Duolingo/
+##### Site Online: https://eullerhenrique.github.io/Duolingo/
 
 ##### Projeto base: Projeto Aprendendo Inglês 
 
