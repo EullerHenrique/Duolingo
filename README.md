@@ -20,7 +20,7 @@
  
 </p>
 
-### Sumário 
+## Sumário 
 
 :small_blue_diamond: [Page Online](#page-online)
 
@@ -36,6 +36,7 @@
 
 :small_blue_diamond: [Build e Deploy](#build-e-deploy)
 
+
 ## Page Online
     
 > https://eullerhenrique.github.io/Duolingo/
@@ -44,7 +45,7 @@
 
 > Projeto Aprendendo Inglês do curso [ES6, TYPSCRIPT E ANGULAR 4](https://www.udemy.com/course/curso-de-desenvolvimento-web-com-es6-typescript-e-angular-4/)     
 
-## Aprendizados :star:
+## Aprendizados 
 
  - Como iniciar projetos Angular 4 via Angular-CLI
  - Como a SPA é iniciada no browser
@@ -67,7 +68,7 @@
  - **ANGULAR 4**
 
 
-## Layout 🎨  
+## Layout
 
 ###  Translate
 
