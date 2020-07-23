@@ -40,13 +40,19 @@
 
 <img src="https://user-images.githubusercontent.com/48317736/88221001-31915900-cc3a-11ea-9451-98f1bd3bad54.png">
 
+---
+
 <p align="center"> <strong> Sucess </strong> </p>
 
 <img src="https://user-images.githubusercontent.com/48317736/88221211-82a14d00-cc3a-11ea-94c8-44fb1ef1e68b.png"><br>
 
+---
+
 <p align="center"> <strong> Failure </strong> </p></p>
 
 <img src="https://user-images.githubusercontent.com/48317736/88221050-453cbf80-cc3a-11ea-81e5-93eab7dd18a8.png"><br>
+
+---
 
 #  Instruções Iniciais:   
 
