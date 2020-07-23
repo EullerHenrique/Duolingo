@@ -22,19 +22,26 @@
 
 ## Sumário 
 
-:small_blue_diamond: [Page Online](#page-online)
+- [Page Online](#page-online)
 
-:small_blue_diamond: [Projeto Base](#projeto-base)
+- [Projeto Base](#projeto-base)
 
-:small_blue_diamond: [Aprendizados](#aprendizados)
+- [Aprendizados](#aprendizados)
 
-:small_blue_diamond: [Tecnologias utilizadas](#tecnologias-utilizadas)
+- [Tecnologias utilizadas](#tecnologias-utilizadas)
 
-:small_blue_diamond: [Layout](#layout)
+- [Layout](#layout)
 
-:small_blue_diamond: [Instalação](#instalação)
+- [Instalação](#instalação)
 
-:small_blue_diamond: [Build e Deploy](#build-e-deploy)
+- [Build e Deploy](#build-e-deploy)
+  -[Build e Deploy via angular cli](#build-e-deploy-via-angular-cli)
+  
+  -[Build via Angular cli e Deploy via servidor HTTP](#build-via-angular-cli-e-deploy-via-servidor-http)
+  
+  -[Build via Angular cli e Deploy via HTTP-server](#build-via-angular-cli-e-deploy-via-http-server)
+  
+  
 
 
 ## Page Online
