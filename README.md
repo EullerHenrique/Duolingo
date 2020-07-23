@@ -1,6 +1,3 @@
-
-
-
 # Duolingo
 
 <p align="center">
@@ -23,11 +20,9 @@
  
 </p>
 
-##### Site Online: https://eullerhenrique.github.io/Duolingo/
+## Page Online: https://eullerhenrique.github.io/Duolingo/
 
-##### Projeto base: Projeto Aprendendo Inglês 
-
-##### Projeto base oriundo do curso: [ES6, TYPSCRIPT E ANGULAR 4](https://www.udemy.com/course/curso-de-desenvolvimento-web-com-es6-typescript-e-angular-4/) 
+## Projeto base: Projeto Aprendendo Inglês do curso [ES6, TYPSCRIPT E ANGULAR 4](https://www.udemy.com/course/curso-de-desenvolvimento-web-com-es6-typescript-e-angular-4/) 
 
 ## :star: Foco De Aprendizado :star:
 
