@@ -26,9 +26,11 @@
 
 - [Projeto Base](#projeto-base)
 
+- [Projeto Proveniente Do Curso](#projeto-proveniente-do-curso)
+
 - [Aprendizados](#aprendizados)
 
-- [Tecnologias utilizadas](#tecnologias-utilizadas)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
 
 - [Layout](#layout)
 
@@ -48,11 +50,11 @@
     
 > https://eullerhenrique.github.io/Duolingo/
 
-## Projeto base
+## Projeto Base
 
-> Projeto Aprendendo Inglês 
+    Projeto Aprendendo Inglês 
 
-## Projeto proveniente do curso
+## Projeto Proveniente Do Curso
 
 - [Curso de Desenvolvimento WEB com ES6, TypeScript e Angular](https://www.udemy.com/course/curso-de-desenvolvimento-web-com-es6-typescript-e-angular-4/)
   - Professor: [Jorge Sant Ana](https://www.udemy.com/user/jorgetadeusantanasilva/)
