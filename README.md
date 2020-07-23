@@ -24,7 +24,7 @@
 
 ### Projeto base: Projeto Aprendendo Inglês do curso [ES6, TYPSCRIPT E ANGULAR 4](https://www.udemy.com/course/curso-de-desenvolvimento-web-com-es6-typescript-e-angular-4/) 
 
-## :star: Foco De Aprendizado :star:
+## :star: Aprendizados :star:
 
  - Como iniciar projetos Angular 4 via Angular-CLI
  - Como a SPA é iniciada no browser
