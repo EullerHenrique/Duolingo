@@ -3,6 +3,15 @@
 
 # Projeto Duolingo: 
 
+<p align="center">
+ 
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/EullerHenrique/Project_Duolingo">
+
+
+
+ 
+</p>
+
 ##### Site Online: https://eullerhenrique.github.io/Project_Duolingo/
 
 ##### Projeto base: Projeto Aprendendo Inglês 
