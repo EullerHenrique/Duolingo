@@ -20,6 +20,11 @@
  
 </p>
 
+<p align="center">
+  <a href="#page-online">Page Online</a> |
+  
+</p>
+
 ## Page Online
     
 > https://eullerhenrique.github.io/Duolingo/
