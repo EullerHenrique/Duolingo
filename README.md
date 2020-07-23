@@ -7,6 +7,7 @@
  
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/EullerHenrique/Project_Duolingo">
 
+<img alt="GitHub" src="https://img.shields.io/github/license/EullerHenrique/Project_Duolingo">
 
 
  
