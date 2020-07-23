@@ -50,7 +50,17 @@
 
 ## Projeto base
 
-> Projeto Aprendendo Inglês do curso [ES6, TYPSCRIPT E ANGULAR 4](https://www.udemy.com/course/curso-de-desenvolvimento-web-com-es6-typescript-e-angular-4/)     
+> Projeto Aprendendo Inglês 
+
+## Projeto proveniente do curso
+
+- [Curso de Desenvolvimento WEB com ES6, TypeScript e Angular](https://www.udemy.com/course/curso-de-desenvolvimento-web-com-es6-typescript-e-angular-4/)
+  - Professor: [Jorge Sant Ana](https://www.udemy.com/user/jorgetadeusantanasilva/)
+  - Seção: Introdução ao angular 4 
+ 
+  
+
+
 
 ## Aprendizados 
 
