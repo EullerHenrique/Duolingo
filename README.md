@@ -109,33 +109,38 @@
 
 #  Instalação   
 
+
+## Pré-requisitos 
+
   **1.** Instale o Node.js    
   
     sudo apt-get install nodejs    
 
   **2.** Instale o npm    
     
-    sudo apt-get install npm  
+    sudo apt-get install npm     
 
-  **3.** Instale o Angular Cli 1.1.0 (Contém o Angular 4)
-    
-    sudo npm install -g @angular/cli@1.1.0**      
-
-  **4.** Instale o Bootstrap 4   
+  **3.** Instale o Bootstrap 4   
      
      sudo npm install bootstrap  
+     
+## Requisitos
 
-  **5.** Crie um novo projeto:
+  **1.** Instale o Angular Cli 1.1.0 (Contém o Angular 4)
+    
+    sudo npm install -g @angular/cli@1.1.0   
+
+  **2.** Crie um novo projeto:
   
      ng new nome-do-projeto     
 
-  **6.** Exclua a pasta src  
+  **3.** Exclua a pasta src  
 
-  **7.** Clone o repositório    
+  **4.** Clone o repositório    
   
      git clone https://github.com/EullerHenrique/Duolingo
   
-  **8.** Insira a pasta src no diretório nome-do-projeto  
+  **5.** Insira a pasta src no diretório nome-do-projeto  
             
             
 # Build e Deploy
