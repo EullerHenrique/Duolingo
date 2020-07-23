@@ -19,7 +19,7 @@
   
 <img alt="GitHub" src="https://img.shields.io/github/license/EullerHenrique/Project_Duolingo">
 
-<img src="http://img.shields.io/static/v1?label=status&message=concluido&color=GREEN&style=plastic"/>
+<img src="http://img.shields.io/static/v1?label=status&message=concluded&color=GREEN&style=plastic"/>
 
 
  
