@@ -23,7 +23,6 @@
  
 </p>
 
-
 ##### Site Online: https://eullerhenrique.github.io/Project_Duolingo/
 
 ##### Projeto base: Projeto Aprendendo Inglês 
@@ -39,7 +38,7 @@
 
 <p align="center"> <strong> Translate </strong> </p>
 
-<img src="https://user- images.githubusercontent.com/48317736/88221001-31915900-cc3a-11ea-9451-98f1bd3bad54.png">
+<img src="https://user-images.githubusercontent.com/48317736/88221001-31915900-cc3a-11ea-9451-98f1bd3bad54.png">
 
 <p align="center"> <strong> Sucess </strong> </p>
 
