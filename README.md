@@ -125,7 +125,7 @@
      
      sudo npm install bootstrap  
 
-  **5.** Crie um novo pojeto:
+  **5.** Crie um novo projeto:
   
      ng new nome-do-projeto     
 
