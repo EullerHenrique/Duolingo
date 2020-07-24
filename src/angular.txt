@@ -16,22 +16,22 @@ Explicações mais detalhadas:
     https://www.treinaweb.com.br/blog/o-que-e-o-angular-e-para-que-serve/
 
 
-Instalações: 
+Instalações:
 
-    Node js:  
+    Node js:
 
          sudo apt-get install nodejs
-    
+
     Npm:
 
          sudo apt-get install npm
 
-  
-    Angular cli 1.1.0 (Contém o Angular 4): 
-         sudo npm install -g @angular/cli@1.1.0
-            
 
-    
+    Angular cli 1.1.0 (Contém o Angular 4):
+         sudo npm install -g @angular/cli@1.1.0
+
+
+
     Opcional:
 
         Bootstrap 4:
@@ -50,8 +50,8 @@ Instalações:
           Obs: -g = -global,ou seja, o comando pode ser utilizado em qualquer local do  sistema operacional por meio da linha de comando
 
 
-        
-            
+
+
 
 
 
@@ -79,7 +79,7 @@ Criar um componente
   ng g c <nome> --spec=false     spec -> Arquivo utilizado para testes
                                  spec=false -> O arquivo spec não será criado
 
- 
+
 
 Gerar um build (executar o webpack) de desenvolvimento (Destinada ao programador)
 
@@ -143,11 +143,10 @@ Gerar um build (executar o webpack) de produção (Destinada à publicação)
 
 
     Deploy local via pacote HTTP-server
- 
+
         Gerar http-server
 
            Rode o comando http-server dentro da pasta dist
-        
 
 
 
@@ -155,7 +154,8 @@ Gerar um build (executar o webpack) de produção (Destinada à publicação)
 
 
 
- 
+
+
         Projeto acessível por meio de dois servidores:
                 1)Servidor que utiliza o ip do roteador (Qualquer dispositivo pode acessar esse servidor)
                 2)Servidor localhost (Somente o dispositivo atual pode acessar esse servidor)
@@ -173,16 +173,16 @@ Gerar um build (executar o webpack) de produção (Destinada à publicação)
 
       Build para o git hub pages
 
-            ng build --prod --ato=false --base-href "<repo-name>"
+            ng build --prod --aot=false --base-href "<repo-name>"
 
-            ex:  ng build --prod --ato=false --base-href ngh https://eullerhenrique.github.io/Projeto_Duolingo/
+            ex:  ng build --prod --aot=false --base-href ngh https://eullerhenrique.github.io/Projeto_Duolingo/
 
 
 
 
     Deploy para o git hub pages
 
-    
+
          Execute o angular-cli-ghpages
               sudo ngh
 
