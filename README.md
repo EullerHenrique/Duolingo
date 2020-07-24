@@ -179,7 +179,7 @@
   
    **1.** Entre na pasta dist 
          
-         cd dist
+    cd dist
   
    **2.** Abra o arquivo main
    
