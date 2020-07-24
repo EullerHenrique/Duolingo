@@ -83,13 +83,13 @@
 
 ## Tecnologias Utilizadas
 
- - **HTML 5**
- - **CSS**
- - **JAVASCRIPT MODERNO ES6 (ECMAScript 2016)**
- - **BOOTSTRAP 4**
- - **NODE JS**
- - **TYPESCRIPT**
- - **ANGULAR 4**
+ - HTML 5
+ - CSS
+ - JAVASCRIPT MODERNO ES6 (ECMAScript 2016)
+ - BOOTSTRAP 4
+ - NODE JS
+ - TYPESCRIPT
+ - ANGULAR 4
 
 
 ## Layout
