@@ -38,22 +38,14 @@
 
 - [Instalação e inserção do repositório em um projeto angular](#instalação-e-inserção-do-repositório-em-um-projeto-angular)
 
-- [Build](#build)
-  - [Deploy via angular cli](#deploy-via-angular-cli)
+- [Build e Deploy via Angular Cli](#build-e-deploy-via-angular-cli)
+
+- [Build via Angular Cli](#build-via-angular-cli)
   
-  - [Deploy via servidor HTTP](#deploy-via-servidor-http)
-   
-    - [Deploy por meio de um build gerado](#deploy-por-meio-de-um-build-gerado)
-   
-    - [Deploy por meio do build presente no branch gh-pages](#deploy-por-meio-do-build-presente-no-branch-gh-pages)
-  
+  - [Deploy via servidor HTTP](#deploy-via-servidor-http)  
   
   - [Deploy via HTTP-server](#deploy-via-http-server)
-  
-    - [Deploy por meio de um build gerado](#deploy-por-meio-de-um-build-gerado)
    
-    - [Deploy por meio do build presente no branch gh-pages](#deploy-por-meio-do-build-presente-no-branch-gh-pages)
-  
 - [Licença](#licença)
   
   
@@ -156,20 +148,9 @@
     cd ..
     cd Duolingo
     mv src ../nome-projeto
-    
-            
-# Build
-
-  Gere um build de produção  
-      
-    ng build --prod --aot=false --base-href pasta-raiz   
-      
-    ex: ng build --prod --aot=false --base-href dist
-    
- 
-# Deploy 
-
-  ## Deploy via angular cli   
+              
+              
+ # Build e Deploy via Angular Cli   
  
   **1.** Entre na pasta nome-do-projeto, gere um build e um servidor local remoto 
    
@@ -180,32 +161,37 @@
   **2.** Acesse em seu navegador o servidor gerado  
   
     localhost:4200 || 127.0.0.1:4200 (Somente o dispositivo atual pode acessar esse servidor) 
-                      
+  
+  
+  # Build via Angular Cli
+
+  Gere um build de produção  
+      
+    ng build --prod --aot=false --base-href pasta-raiz   
+      
+    ex: ng build --prod --aot=false --base-href dist
+    
+    
+ # Deploy   
+    
 
   ## Deploy via servidor HTTP
   
-  ### Deploy por meio de um build gerado
+   **1.** Entre na pasta dist 
+         
+         cd dist
   
-   **1.** Atualize os caminhos para as imagens     
-    
+   **2.** Abra o arquivo main
+   
+   **3.** Atualize os caminhos para as imagens
+
     Como a pasta raiz foi trocada, os caminhos para as imagens devem ser atualizados  
     
     Nos caminhos que comemçam com "/assets...", retire a barra
 
-   **2.** Insira a pasta dist na pasta pública (ex: public_html) do servidor HTTP (ex: Apache)  
-   
-   **3:** Acesse em seu navegador o servidor gerado (ex: localhost/~euller) pelo servidor http (ex:apache) e navegue até o diretório dist
-    
- ### Deploy por meio do build presente no branch gh-pages
+   **4.** Insira a pasta dist na pasta pública (ex: public_html) do servidor HTTP (ex: Apache)  
   
-   **1.** Clone o branch gh-pages
-      
-    git clone --branch gh-pages https://github.com/EullerHenrique/Duolingo/
-   
-   **2.** Insira a pasta dist na pasta pública (ex: public_html) do servidor HTTP (ex: Apache)  
-   
-   **3:** Acesse em seu navegador o servidor gerado (ex: localhost/~euller) pelo servidor http (ex:apache) e navegue até o diretório dist
-   
+   **5:** Acesse em seu navegador o servidor gerado (ex: localhost/~euller) pelo servidor http (ex:apache) e navegue até o diretório dist
                   
   ## Deploy via HTTP-server
   
@@ -213,45 +199,20 @@
    
     sudo npm install http-server -g
     
-    
-  ### Deploy por meio de um build gerado
-             
-   **1.** Entre na pasta dist e gere um servidor   
+   **2.** Entre na pasta dist e gere um servidor   
    
     cd dist
     
     http-server
  
-   **2.** Acesse em seu navegador o servidor gerado  
+   **3.** Acesse em seu navegador o servidor gerado  
  
     localhost:8080 || 127.0.0.1:8080 (Somente o dispositivo atual pode acessar esse servidor)  
 
     ou  
 
     ip_do_roteador:8080 (Qualquer dispositivo pode acessar esse servidor)    
-         
-  ### Deploy por meio do build presente no branch gh-pages
-  
-  **1.** Clone o branch gh-pages
-      
-    git clone --branch gh-pages https://github.com/EullerHenrique/Duolingo/
-    
-  **2.** Entre na pasta dist e gere um servidor  
-   
-    cd Duolingo
-    
-    cd dist
-  
-    http-server
-      
-  **3.** Acesse em seu navegador o servidor gerado  
- 
-    localhost:8080 || 127.0.0.1:8080 (Somente o dispositivo atual pode acessar esse servidor)  
-
-    ou  
-
-    ip_do_roteador:8080 (Qualquer dispositivo pode acessar esse servidor)    
-   
+        
    
 ## Licença 
 
