@@ -34,6 +34,8 @@
 
 - [Layout](#layout)
 
+- [Pré-Requisitos](#Pré-requisitos)
+
 - [Instalação](#instalação)
 
 - [Build e Deploy](#build-e-deploy)
@@ -108,7 +110,7 @@
 ---
 
  
-# Pré-requisitos 
+# Pré-Requisitos 
 
   **1.** Instale o Node.js    
   
