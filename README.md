@@ -171,8 +171,10 @@
 
   ## Deploy via angular cli   
  
-  **1.** Gere um build e um servidor local remoto 
-
+  **1.** Entre na pasta nome-do-projeto, gere um build e um servidor local remoto 
+   
+    cd nome-do-projeto
+    
     ng serve
 
   **2.** Acesse em seu navegador o servidor gerado  
@@ -215,7 +217,9 @@
   ### Deploy por meio de um build gerado
              
    **1.** Entre na pasta dist e gere um servidor   
-  
+   
+    cd dist
+    
     http-server
  
    **2.** Acesse em seu navegador o servidor gerado  
@@ -232,7 +236,11 @@
       
     git clone --branch gh-pages https://github.com/EullerHenrique/Duolingo/
     
-  **2.** Entre na pasta dist e gere um servidor   
+  **2.** Entre na pasta dist e gere um servidor  
+   
+    cd Duolingo
+    
+    cd dist
   
     http-server
       
