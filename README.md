@@ -125,68 +125,78 @@
   **3.** Instale o Angular Cli 1.1.0 (Contém o Angular 4)
     
     sudo npm install -g @angular/cli@1.1.0 
-
-#  Instalação  
+    
+    
+# Instalação e criação
 
   **1.** Clone o repositório    
   
-     git clone https://github.com/EullerHenrique/Duolingo
-
-  **3.** Crie um novo projeto:
+    git clone https://github.com/EullerHenrique/Duolingo
+        
+  **2.** Crie um novo projeto
   
-     ng new nome-do-projeto     
+    ng new nome-do-projeto     
 
-  **4.** Exclua a pasta src presente no diretório nome-do-projeto
+  **3.** Exclua a pasta src presente no diretório nome-do-projeto
           
-     cd nome-projeto
-     rm -rf nome-projeto
+    cd nome-projeto
+    rm -rf nome-projeto
   
-  **5.** Insira a pasta src presente no diretório Duolingo no diretório nome-do-projeto  
+  **4.** Insira a pasta src presente no diretório Duolingo no diretório nome-do-projeto  
       
     cd ..
     cd Duolingo
     mv src ../nome-projeto
-            
-            
-# Build e Deploy
-
-  ## Build e Deploy via angular cli
     
-   **1.** Gere um build e um servidor local remoto 
-     
-    ng serve
+            
+# Build
 
-   **2.** Acesse em seu navegador o servidor gerado  
-  
-    localhost:4200 || 127.0.0.1:4200 (Somente o dispositivo atual pode acessar esse servidor)  
-                      
-
-  ## Build via Angular cli e Deploy via servidor HTTP
-  
-   **1.** Entre na pasta src e gere uma build de produção:    
+  **1.** Gere um build de produção  
       
     ng build --prod --aot=false --base-href pasta-raiz   
       
     ex: ng build --prod --aot=false --base-href dist
+    
+ 
+# Deploy 
 
-   **2.** Atualize os caminhos para as imagens:     
+  ## Deploy via angular cli   
+ 
+  **1.** Gere um build e um servidor local remoto 
+
+    ng serve
+
+  **2.** Acesse em seu navegador o servidor gerado  
+  
+    localhost:4200 || 127.0.0.1:4200 (Somente o dispositivo atual pode acessar esse servidor) 
+                      
+
+  ## Deploy via servidor HTTP
+  
+  ### Deploy por meio do buid gerado
+  
+   **1.** Atualize os caminhos para as imagens     
     
     Como a pasta raiz foi trocada, os caminhos para as imagens devem ser atualizados  
     
     Nos caminhos que comemçam com "/assets...", retire a barra
 
-   **3.** Insira a pasta dist na pasta pública (ex: public_html) do servidor HTTP (ex: Apache)  
+   **2.** Insira a pasta dist na pasta pública (ex: public_html) do servidor HTTP (ex: Apache)  
    
-   **4:** Acesse em seu navegador o servidor gerado
-   
-    localhost:8080 || 127.0.0.1:8080 (Somente o dispositivo atual pode acessar esse servidor)  
-   
-    ou  
+   **3:** Acesse em seu navegador o servidor gerado (ex: localhost/~euller) pelo servidor http (ex:apache) e navegue até o diretório dist
     
-    ip_do_roteador:8080 (Qualquer dispositivo pode acessar esse    servidor)  
-                
+ #### Deploy por meio do build presente no branch gh-pages
+  
+   **1.** Clone o branch gh-pages
+      
+    git clone --branch gh-pages https://github.com/EullerHenrique/Duolingo/
+   
+   **2.** Insira a pasta dist na pasta pública (ex: public_html) do servidor HTTP (ex: Apache)  
+   
+   **3:** Acesse em seu navegador o servidor gerado (ex: localhost/~euller) pelo servidor http (ex:apache) e navegue até o diretório dist
+   
                   
-  ## Build via Angular cli e Deploy via HTTP-server
+  ## Deploy via HTTP-server
   
    **1:** Instale o HTTP-server
    
