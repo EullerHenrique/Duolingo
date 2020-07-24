@@ -34,7 +34,7 @@
 
 - [Layout](#layout)
 
-- [Pré-Requisitos](#Pré-requisitos)
+- [Pré-Requisitos](#pré-requisitos)
 
 - [Instalação](#instalação)
 
@@ -44,6 +44,8 @@
   - [Build via Angular cli e Deploy via servidor HTTP](#build-via-angular-cli-e-deploy-via-servidor-http)
   
   - [Build via Angular cli e Deploy via HTTP-server](#build-via-angular-cli-e-deploy-via-http-server)
+  
+- [Licença](#licença)
   
   
 
@@ -202,7 +204,7 @@
 
     ip_do_roteador:8080 (Qualquer dispositivo pode acessar esse servidor)    
    
-## 📝 Licença 📝
+## Licença 
 
 The [MIT License]() (MIT)
 
