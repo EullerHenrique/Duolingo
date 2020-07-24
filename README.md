@@ -191,11 +191,11 @@
 
    **4.** Insira a pasta dist na pasta pública (ex: public_html) do servidor HTTP (ex: Apache)  
   
-   **5:** Acesse em seu navegador o servidor gerado (ex: localhost/~euller) pelo servidor http (ex:apache) e navegue até o diretório dist
+   **5.** Acesse em seu navegador o servidor gerado (ex: localhost/~euller) pelo servidor http (ex:apache) e navegue até o diretório dist
                   
   ## Deploy via HTTP-server
   
-   **1:** Instale o HTTP-server
+   **1.** Instale o HTTP-server
    
     sudo npm install http-server -g
     
