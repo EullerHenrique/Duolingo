@@ -36,14 +36,23 @@
 
 - [Pré-Requisitos](#pré-requisitos)
 
-- [Instalação](#instalação)
+- [Instalação e inserção do repositório em um projeto angular](#instalação-e-inserção-do-repositório-em-um-projeto-angular)
 
-- [Build e Deploy](#build-e-deploy)
-  - [Build e Deploy via angular cli](#build-e-deploy-via-angular-cli)
+- [Build](#build)
+  - [Deploy via angular cli](#deploy-via-angular-cli)
   
-  - [Build via Angular cli e Deploy via servidor HTTP](#build-via-angular-cli-e-deploy-via-servidor-http)
+  - [Deploy via servidor HTTP](#deploy-via-servidor-http)
+   
+    - [Deploy por meio de um build gerado](#deploy-por-meio-de-um-build-gerado)
+   
+    - [Deploy por meio do build presente no branch gh-pages](#deploy-por-meio-do-build-presente-no-branch-gh-pages)
   
-  - [Build via Angular cli e Deploy via HTTP-server](#build-via-angular-cli-e-deploy-via-http-server)
+  
+  - [Deploy via HTTP-server](#deploy-via-http-server)
+  
+    - [Deploy por meio de um build gerado](#deploy-por-meio-de-um-build-gerado)
+   
+    - [Deploy por meio do build presente no branch gh-pages](#deploy-por-meio-do-build-presente-no-branch-gh-pages)
   
 - [Licença](#licença)
   
@@ -127,13 +136,13 @@
     sudo npm install -g @angular/cli@1.1.0 
     
     
-# Instalação e criação
+# Instalação e inserção do repositório em um projeto angular
 
   **1.** Clone o repositório    
   
     git clone https://github.com/EullerHenrique/Duolingo
         
-  **2.** Crie um novo projeto
+  **2.** Crie um projeto angular
   
     ng new nome-do-projeto     
 
@@ -173,7 +182,7 @@
 
   ## Deploy via servidor HTTP
   
-  ### Deploy por meio do buid gerado
+  ### Deploy por meio de um build gerado
   
    **1.** Atualize os caminhos para as imagens     
     
@@ -203,7 +212,7 @@
     sudo npm install http-server -g
     
     
-  ### Deploy por meio do buid gerado
+  ### Deploy por meio de um build gerado
              
    **1.** Entre na pasta dist e gere um servidor   
   
