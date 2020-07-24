@@ -107,10 +107,8 @@
 
 ---
 
-#  Instalação   
-
-
-## Pré-requisitos 
+ 
+# Pré-requisitos 
 
   **1.** Instale o Node.js    
   
@@ -119,28 +117,31 @@
   **2.** Instale o npm    
     
     sudo apt-get install npm     
-
-  **3.** Instale o Bootstrap 4   
-     
-     sudo npm install bootstrap  
-     
-## Requisitos
-
-  **1.** Instale o Angular Cli 1.1.0 (Contém o Angular 4)
+  
+  **3.** Instale o Angular Cli 1.1.0 (Contém o Angular 4)
     
-    sudo npm install -g @angular/cli@1.1.0   
+    sudo npm install -g @angular/cli@1.1.0 
 
-  **2.** Crie um novo projeto:
+#  Instalação  
+
+  **1.** Clone o repositório    
+  
+     git clone https://github.com/EullerHenrique/Duolingo
+
+  **3.** Crie um novo projeto:
   
      ng new nome-do-projeto     
 
-  **3.** Exclua a pasta src  
-
-  **4.** Clone o repositório    
-  
-     git clone https://github.com/EullerHenrique/Duolingo
+  **4.** Exclua a pasta src 
+          
+     cd nome-projeto
+     rm -rf nome-projeto
   
   **5.** Insira a pasta src no diretório nome-do-projeto  
+      
+    cd ..
+    cd Duolingo
+    mv src ../nome-projeto
             
             
 # Build e Deploy
@@ -149,7 +150,7 @@
     
    **1.** Gere um build e um servidor local remoto 
      
-     ng serve
+    ng serve
 
    **2.** Acesse em seu navegador o servidor gerado  
   
@@ -160,9 +161,9 @@
   
    **1.** Entre na pasta src e gere uma build de produção:    
       
-      ng build --prod --aot=false --base-href pasta-raiz   
+    ng build --prod --aot=false --base-href pasta-raiz   
       
-      ex: ng build --prod --aot=false --base-href dist
+    ex: ng build --prod --aot=false --base-href dist
 
    **2.** Atualize os caminhos para as imagens:     
     
@@ -185,7 +186,7 @@
   
    **1:** Instale o HTTP-server
    
-     sudo npm install http-server -g  
+    sudo npm install http-server -g  
                
    **2.** Entre na pasta dist e gere um servidor   
   
