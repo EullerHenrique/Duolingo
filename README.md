@@ -132,12 +132,12 @@
   
      ng new nome-do-projeto     
 
-  **4.** Exclua a pasta src 
+  **4.** Exclua a pasta src presente no diretório nome-do-projeto
           
      cd nome-projeto
      rm -rf nome-projeto
   
-  **5.** Insira a pasta src no diretório nome-do-projeto  
+  **5.** Insira a pasta src presente no diretório Duolingo no diretório nome-do-projeto  
       
     cd ..
     cd Duolingo
