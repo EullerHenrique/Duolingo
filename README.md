@@ -4,17 +4,17 @@
  
  <img alt="Framework" src="https://img.shields.io/static/v1?label=Angular&message=framework&color=blue&style=plastic&logo=ANGULAR">
  
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/EullerHenrique/Project_Duolingo">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/EullerHenrique/Duolingo">
   
- <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/EullerHenrique/Project_Duolingo">
+ <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/EullerHenrique/Duolingo">
   
-<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/EullerHenrique/Project_Duolingo">
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/EullerHenrique/Duolingo">
 
-  <a href="https://github.com/EullerHenrique/Project_Duolingo/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EullerHenrique/Project_Duolingo">
+  <a href="https://github.com/EullerHenrique/Duolingo/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EullerHenrique/Duolingo">
   </a>
   
-<img alt="GitHub" src="https://img.shields.io/github/license/EullerHenrique/Project_Duolingo">
+<img alt="GitHub" src="https://img.shields.io/github/license/EullerHenrique/Duolingo">
 
 <img src="http://img.shields.io/static/v1?label=status&message=concluded&color=GREEN&style=plastic"/>
  
