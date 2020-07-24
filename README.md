@@ -151,7 +151,7 @@
             
 # Build
 
-  **1.** Gere um build de produção  
+  Gere um build de produção  
       
     ng build --prod --aot=false --base-href pasta-raiz   
       
@@ -185,7 +185,7 @@
    
    **3:** Acesse em seu navegador o servidor gerado (ex: localhost/~euller) pelo servidor http (ex:apache) e navegue até o diretório dist
     
- #### Deploy por meio do build presente no branch gh-pages
+ ### Deploy por meio do build presente no branch gh-pages
   
    **1.** Clone o branch gh-pages
       
@@ -200,19 +200,41 @@
   
    **1:** Instale o HTTP-server
    
-    sudo npm install http-server -g  
-               
-   **2.** Entre na pasta dist e gere um servidor   
+    sudo npm install http-server -g
+    
+    
+  ### Deploy por meio do buid gerado
+             
+   **1.** Entre na pasta dist e gere um servidor   
   
     http-server
  
-   **3.** Acesse em seu navegador o servidor gerado  
+   **2.** Acesse em seu navegador o servidor gerado  
  
     localhost:8080 || 127.0.0.1:8080 (Somente o dispositivo atual pode acessar esse servidor)  
 
     ou  
 
     ip_do_roteador:8080 (Qualquer dispositivo pode acessar esse servidor)    
+         
+  ### Deploy por meio do build presente no branch gh-pages
+  
+  **1.** Clone o branch gh-pages
+      
+    git clone --branch gh-pages https://github.com/EullerHenrique/Duolingo/
+    
+  **2.** Entre na pasta dist e gere um servidor   
+  
+    http-server
+      
+  **3.** Acesse em seu navegador o servidor gerado  
+ 
+    localhost:8080 || 127.0.0.1:8080 (Somente o dispositivo atual pode acessar esse servidor)  
+
+    ou  
+
+    ip_do_roteador:8080 (Qualquer dispositivo pode acessar esse servidor)    
+   
    
 ## Licença 
 
