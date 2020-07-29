@@ -1,20 +1,26 @@
 
 <div class="container">
 
-  <div class="painel row align-items-center justify-content-center">
+  <div class="row painel align-items-center justify-content-center">
 
     <div class="col-9 jumbotron pt-3 pb-3">
 
       <div class="row">
 
         <div class="col-sm-6">
+       
           <app-progresso [progresso]="progresso"></app-progresso>
+       
         </div>
 
         <div class="col-sm-6 mt-2 mt-sm-0">
+       
           <div class="d-flex justify-content-end">
+       
             <app-tentativas [tentativas] = "tentativas"></app-tentativas>
+       
           </div>
+       
         </div>
 
       </div>
@@ -22,57 +28,63 @@
       <div class="row">
 
         <div class="col-6 d-flex justify-content-center">
-           <img class="duo-translate" src="assets/duo_translate.png">
+       
+          <img class="duo-translate" src="assets/duo_translate.png">
+       
         </div>
 
         <div class="col-6 text-center mt-3">
+        
           <p>{{frase.fraseEng}}</p>
+        
         </div>
 
       </div>
 
       <div class="row">
+       
         <div class="col-6 text-center mb-2">
+         
           <p>{{instrucao}}</p>
+     
         </div>
+      
       </div>
 
 
 
-    <div class="row">
+      <div class="row">
 
-      <div class="col">
+        <div class="col">
 
-        <div class="form-group">
+          <div class="form-group">
 
-          <textarea
-            class="form-control"
-            rows="3"
-             (input)="atualizarResposta($event)"
-             [value]="resposta"
-          ></textarea>
+            <textarea
+              class="form-control"
+              rows="3"
+              (input)="atualizarResposta($event)"
+              [value]="resposta"
+            ></textarea>
+
+          </div>
 
         </div>
 
       </div>
 
-    </div>
+      <div class="row">
 
-    <div class="row">
+        <div class="col d-flex justify-content-end">
+        
+          <button type="button" class="btn shadow-none btn-primary rounded-pill" (click)="verificarResposta()" >Verificar</button>
+        
+        </div>
 
-      <div class="col d-flex justify-content-end">
-        <button type="button" class="btn shadow-none btn-primary rounded-pill" (click)="verificarResposta()" >Verificar</button>
       </div>
-
-    </div>
-
-    </div>
 
   </div>
 
 </div>
-
-
 
 
 
