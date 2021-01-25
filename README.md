@@ -132,7 +132,7 @@
 
   **1.** Clone o repositório    
   
-    git clone https://github.com/EullerHenrique/Duolingo
+    git clone https://github.com/EullerHenrique/Duolingo.git
         
   **2.** Crie um projeto angular
   
