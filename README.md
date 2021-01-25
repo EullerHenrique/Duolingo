@@ -125,7 +125,7 @@
   
   **3.** Instale o Angular Cli 1.1.0 (Contém o Angular 4)
     
-    sudo npm install -g @angular/cli@1.1.0 
+    sudo npm install @angular/cli@1.1.0 
     
     
 # Instalação e inserção do repositório em um projeto angular
