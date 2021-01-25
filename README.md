@@ -187,7 +187,7 @@
 
     Como a pasta raiz foi trocada, os caminhos para as imagens devem ser atualizados  
     
-    Nos caminhos que comemçam com "/assets...", retire a barra
+    Nos caminhos que começam com "/assets...", retire a barra
 
    **4.** Insira a pasta dist na pasta pública (ex: public_html) do servidor HTTP (ex: Apache)  
   
@@ -197,7 +197,7 @@
   
    **1.** Instale o HTTP-server
    
-    sudo npm install http-server -g
+    sudo npm install http-server
     
    **2.** Entre na pasta dist e gere um servidor   
    
