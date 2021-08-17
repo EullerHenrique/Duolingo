@@ -59,6 +59,9 @@
 
     Projeto Aprendendo Inglês 
 
+- Obs: Em comparação ao projeto base, diversas alterações foram realizadas.
+
+
 ## Projeto Proveniente Do Curso
 
 - [Curso de Desenvolvimento WEB com ES6, TypeScript e Angular](https://www.udemy.com/course/curso-de-desenvolvimento-web-com-es6-typescript-e-angular-4/)
